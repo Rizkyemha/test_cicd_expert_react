@@ -8,7 +8,8 @@
 		"build": "vite build",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"test": "vitest --no-watch"
+		"test": "vitest --no-watch",
+		"ci:test": "npm run test"
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^2.2.5",
