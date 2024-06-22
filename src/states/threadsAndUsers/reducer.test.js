@@ -21,6 +21,6 @@ describe('Testing Scenario for ThreadsandUsers', () => {
     const nextState = threadsAndUsersReducer(initState, action);
 
     // assert
-    expect(nextState).toEqual(null); // make error
+    expect(nextState).toEqual(initState);
   });
 });
